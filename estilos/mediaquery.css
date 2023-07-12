@@ -1,0 +1,13 @@
+@media screen and (min-width: 992px) {
+    
+    .first-sec {
+        height: 100vh;
+        padding: 0px 3em;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        
+    }
+}

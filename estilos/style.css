@@ -50,6 +50,15 @@ header a {
     background-color: white;
     
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.295);
+
+    transition: width 10s, height 10s;
+}
+header a:hover {
+    text-align: center;
+    text-decoration: underline;
+    padding: 8px 27px;
+
+    
 }
 .imgs {
     height: 250px;
@@ -96,6 +105,9 @@ header a {
     background-color: var(--pink);
     
 }
+.btn-pink:hover {
+    background-color: hsl(322, 63%, 54%);
+}
 .img-mockup {
     padding: 3em 0px;
 
@@ -105,15 +117,13 @@ header a {
     
     
 }
-.section-mom {
-    height: 250vh;
-}
 .sections {
     
     
     margin: 4em 1.5em 2em 1.5em;
     padding: 4em 0.5em;
 
+    background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
     border-radius: 20px;
     text-align: center;
@@ -121,6 +131,7 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .sections h2 {
     padding-top: 2em;
@@ -130,12 +141,19 @@ header a {
 
     color: var(--blue);
 }
+
+.btn-end {
+    position: relative;
+}
 .aside {
-    margin: 4em 1.5em;
-    padding: 4em 1em;
+    margin: 8em 1.5em -4em 1.5em;
+    padding: 3em 1em;
+
+ 
 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
     border-radius: 20px;
+    background-color: white;
 
     text-align: center;
    
@@ -150,6 +168,7 @@ header a {
     margin: 2em 5em 0px 5em;
     padding: 12px 1em;
     
+    
 
     color: white;
     text-align: center;
@@ -162,8 +181,15 @@ header a {
     background-color: var(--pink);
     
 }
+.btn-pink2:hover {
+    background-color: hsl(322, 63%, 54%);
+
+
+}
 footer {
-    padding: 20px;
+    padding: 80px 0px 0px 20px ;
+
+    
 
     color: var(--cyan);
     background-color: var(--dark-cyan);
@@ -204,6 +230,11 @@ footer ul {
 }
 footer ul li {
     padding: .5em 0px;
+    width: 120px;
+}
+footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .copy {
     text-align: center;
